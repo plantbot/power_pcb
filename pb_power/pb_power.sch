@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:pb_power-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -68,7 +69,7 @@ GPIO_6
 Text Label 1350 1800 2    60   ~ 0
 GPIO_7
 Text Label 1350 1900 2    60   ~ 0
-ESP_RESET
+C_RESET
 $Comp
 L GND #PWR?
 U 1 1 59BD8C9D
@@ -143,7 +144,7 @@ $EndComp
 Wire Wire Line
 	2200 1600 2000 1600
 Text Label 2500 1700 0    60   ~ 0
-SLEEP_CTRL
+SLP_CTL
 Wire Wire Line
 	2000 1700 2500 1700
 $Comp
